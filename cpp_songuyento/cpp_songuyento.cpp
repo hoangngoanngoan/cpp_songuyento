@@ -28,11 +28,9 @@ int main()
     cout << "\n";
     //kiem tra
     for (int i = 0; i < 5; i++) {
-        if (kiemtra(arr[i]) == true) {
-            cout << arr[i] << " ";
-        }
+        if (kiemtra(arr[i])) cout << arr[i] << " ";
     }
-   
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
